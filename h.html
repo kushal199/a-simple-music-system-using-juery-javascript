@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>refresh</title>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    </head>
+
+    <body>
+        <h1>loading</h1>
+
+        <b>Reload after 5 seconds</b>
+
+        <p>Reload</p>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                setTimeout(function(){
+                  location.reload(true);
+                  //alert("The page will now refresh");
+                }, 5000);
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  background-color: yellow;
+}
+
+h1 {
+  font-size: 3rem;
+  color:blue;
+  font-family: "Cedarville Cursive", cursive;
+  margin-top: 1%;
+
+
+}
+
+footer {
+  color:red;
+  font-family: sans-serif;
+  font-size: 3rem;
+}
+
+
+.set {
+  margin: 10% auto;
+}
+
+
+
+.music {
+  outline: none;
+  border: 10px solid black;
+  font-size: 4rem;
+  font-family: 'Cedarville Cursive', cursive;
+  line-height: 2;
+  font-weight: 800;
+  color: red;
+
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: blue;
+}
+
+.pressed{
+  opacity: .7;
+  box-shadow: 5px 5px 5px 5px red;
+}
